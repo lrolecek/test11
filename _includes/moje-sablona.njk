@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ title }}</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+	<div class="obal">
+
+		<ul class="menu">
+			<li class="logo"><a href="/">SUPER APPKA</a></li>
+			<li><a href="/design">Úžasný design</a></li>
+			<li><a href="/funkce">Boží funkce</a></li>
+			<li><a href="/stazeni">Zdarma ke stažení</a></li>
+		</ul>
+
+    {{ content | safe }}
+
+		<div class="paticka">
+			&copy;2016, Web od A do Z
+		</div>
+
+	</div><!-- konec .obal -->
+
+</body>
+</html>
